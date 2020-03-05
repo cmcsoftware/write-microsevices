@@ -81,7 +81,7 @@
 	</dependencies>
 
 	<build>
-		<finalName>ROOT</finalName>
+		<finalName>write</finalName>
 		<defaultGoal>clean package</defaultGoal>
 		<plugins>
 
