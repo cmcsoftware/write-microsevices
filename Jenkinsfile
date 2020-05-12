@@ -9,4 +9,8 @@ node{
 	stage ('package stage') {
 		sh label: '', script: 'mvn clean package'
 	}
+	
+	stage ('docker image build') {
+		sh 'docker build -t bunicool/write-microservice .'
+	}
 }	
