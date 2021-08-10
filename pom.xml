@@ -20,6 +20,8 @@
 		<timestamp>${maven.build.timestamp}</timestamp>
 		<maven.build.timestamp.format>dd-MM-yyyy</maven.build.timestamp.format>
 		<project.version>1.39.3</project.version>
+		<sonar.organization>cmcsoftware</sonar.organization>
+		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
 	</properties>
 
 	<dependencies>
