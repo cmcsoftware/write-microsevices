@@ -13,4 +13,8 @@ node{
 	stage ('docker image build') {
 		sh 'docker build -t bunicool/write-microservice .'
 	}
+	
+	stage ('docker image run') {
+		sh 'docker run -d -p 8081:8080 --name write bunicool/write-microservice'
+	}
 }	
